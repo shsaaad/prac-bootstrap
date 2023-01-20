@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-text li {
+  font-weight: 600;
+}
+
+.banner {
+  height: 480px;
+  background-color: #fceaec;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-img img {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.banner-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.banner-text button {
+  padding: 8px 15px;
+  background-color: #dc3545;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
